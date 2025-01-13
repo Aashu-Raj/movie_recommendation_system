@@ -1,13 +1,13 @@
 # **Movie Recommendation System 🎬**
 This repository contains a **Movie Recommendation System** built with Python and deployed using Flask. The system uses a content-based filtering approach to recommend movies similar to the one selected by the user. The application is deployed on **Render**, and the web interface allows users to interactively explore movie recommendations.
 
-# Features
+## Features
   - **Content-Based Filtering:** Recommends movies based on their metadata (genres, cast, crew, keywords, and overview).
   - **Interactive UI:** Built using Flask and HTML/CSS with a dark/light theme toggle.
   - **Deployment:** Hosted on Render for easy accessibility.
   - **Efficient Search:** Uses a CountVectorizer and Cosine Similarity to find similar movies.
 
-# How It Works
+## How It Works
   1. **Data Processing:**
      - Merges movie metadata and credits datasets from TMDB.
      - Extracts relevant features (genres, keywords, cast, crew, and overview).
@@ -21,7 +21,7 @@ This repository contains a **Movie Recommendation System** built with Python and
      - Users can search for a movie and get recommendations displayed interactively.
      - Includes a theme toggle for dark and light modes.
 
-# Prerequisites
+## Prerequisites
   - Python 3.x
   - Flask
   - Pandas, NumPy
@@ -29,7 +29,7 @@ This repository contains a **Movie Recommendation System** built with Python and
   - NLTK
   - TMDB dataset [download here](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
-# Setup and Installation ⚙️
+## Setup and Installation ⚙️
   1. **Clone the Repository:**
 
 ```
@@ -56,16 +56,16 @@ cd movie_recommendation_system
   9. **Start the Flask server:**
      python app.py
 
-# Deployment 🌐
+## Deployment 🌐
 The application is deployed on [Render](https://movie-recommendation-nq56.onrender.com).
 
-# Usage
+## Usage
   1. Open the application in your browser(https://movie-recommendation-nq56.onrender.com).
   2. Enter a movie name in the search bar.
   3. Get a list of recommended movies.
   4. Toggle between light and dark themes for a better user experience.
 
-# File Structure
+## File Structure
 ```
 movie-recommendation-system/
 │
