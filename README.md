@@ -40,20 +40,20 @@ cd movie_recommendation_system
 ```
 !pip install -r requirements.txt
 ```
-  4. **Place the 'kaggle.json' file in the correct location and download the TMDB dataset:**
+  3. **Place the 'kaggle.json' file in the correct location and download the TMDB dataset:**
 ```
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
 !chmod 600 ~/.kaggle/kaggle.json
 !kaggle datasets download -d tmdb/tmdb-movie-metadata
 ```
-  6. **Extract the dataset:**
+  4. **Extract the dataset:**
 ```
 !unzip tmdb-movie-metadata.zip
 ```
-  8. **Run the preprocessing script:**
+  5. **Run the preprocessing script:**
      Preprocess the data using the Python script in the model(movie_recommendation_model.ipynb)
-  9. **Start the Flask server:**
+  6. **Start the Flask server:**
      python app.py
 
 ## Deployment 🌐
