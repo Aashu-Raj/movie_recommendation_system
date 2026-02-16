@@ -5,7 +5,7 @@ import os
 
 # --- Configuration ---
 # Set the title and icon for the Streamlit app
-st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="centered")
+st.set_page_config(page_title="Movie Recommender", layout="centered")
 
 # --- Function Definitions (from original app.py) ---
 
@@ -68,7 +68,7 @@ movie_titles = movies_df['title'].values
 
 # --- Streamlit UI Design ---
 
-st.title("🎬 Movie Recommendation System")
+st.title("Movie Recommendation System")
 
 # Movie Selection Input
 selected_movie_name = st.selectbox(
